@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC9D55D51C20AD7900EA2869 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D55D41C20AD7900EA2869 /* AppDelegate.swift */; };
+		DC9D55D71C20AD7900EA2869 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D55D61C20AD7900EA2869 /* ViewController.swift */; };
+		DC9D55DA1C20AD7900EA2869 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9D55D81C20AD7900EA2869 /* Main.storyboard */; };
+		DC9D55DC1C20AD7900EA2869 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC9D55DB1C20AD7900EA2869 /* Assets.xcassets */; };
+		DC9D55DF1C20AD7900EA2869 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9D55DD1C20AD7900EA2869 /* LaunchScreen.storyboard */; };
+		DC9D55E71C20ADD200EA2869 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D55E61C20ADD200EA2869 /* SettingsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC9D55D11C20AD7900EA2869 /* Tipster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC9D55D41C20AD7900EA2869 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC9D55D61C20AD7900EA2869 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC9D55D91C20AD7900EA2869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC9D55DB1C20AD7900EA2869 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC9D55DE1C20AD7900EA2869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC9D55E01C20AD7900EA2869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC9D55E61C20ADD200EA2869 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC9D55CE1C20AD7900EA2869 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC9D55C81C20AD7900EA2869 = {
+			isa = PBXGroup;
+			children = (
+				DC9D55D31C20AD7900EA2869 /* Tipster */,
+				DC9D55D21C20AD7900EA2869 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC9D55D21C20AD7900EA2869 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC9D55D11C20AD7900EA2869 /* Tipster.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC9D55D31C20AD7900EA2869 /* Tipster */ = {
+			isa = PBXGroup;
+			children = (
+				DC9D55D41C20AD7900EA2869 /* AppDelegate.swift */,
+				DC9D55D61C20AD7900EA2869 /* ViewController.swift */,
+				DC9D55E61C20ADD200EA2869 /* SettingsViewController.swift */,
+				DC9D55D81C20AD7900EA2869 /* Main.storyboard */,
+				DC9D55DB1C20AD7900EA2869 /* Assets.xcassets */,
+				DC9D55DD1C20AD7900EA2869 /* LaunchScreen.storyboard */,
+				DC9D55E01C20AD7900EA2869 /* Info.plist */,
+			);
+			path = Tipster;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC9D55D01C20AD7900EA2869 /* Tipster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC9D55E31C20AD7900EA2869 /* Build configuration list for PBXNativeTarget "Tipster" */;
+			buildPhases = (
+				DC9D55CD1C20AD7900EA2869 /* Sources */,
+				DC9D55CE1C20AD7900EA2869 /* Frameworks */,
+				DC9D55CF1C20AD7900EA2869 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tipster;
+			productName = Tipster;
+			productReference = DC9D55D11C20AD7900EA2869 /* Tipster.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC9D55C91C20AD7900EA2869 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Tope Daramola";
+				TargetAttributes = {
+					DC9D55D01C20AD7900EA2869 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8B8MGKRG9T;
+					};
+				};
+			};
+			buildConfigurationList = DC9D55CC1C20AD7900EA2869 /* Build configuration list for PBXProject "Tipster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC9D55C81C20AD7900EA2869;
+			productRefGroup = DC9D55D21C20AD7900EA2869 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC9D55D01C20AD7900EA2869 /* Tipster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC9D55CF1C20AD7900EA2869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9D55DF1C20AD7900EA2869 /* LaunchScreen.storyboard in Resources */,
+				DC9D55DC1C20AD7900EA2869 /* Assets.xcassets in Resources */,
+				DC9D55DA1C20AD7900EA2869 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC9D55CD1C20AD7900EA2869 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9D55D71C20AD7900EA2869 /* ViewController.swift in Sources */,
+				DC9D55D51C20AD7900EA2869 /* AppDelegate.swift in Sources */,
+				DC9D55E71C20ADD200EA2869 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC9D55D81C20AD7900EA2869 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC9D55D91C20AD7900EA2869 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC9D55DD1C20AD7900EA2869 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC9D55DE1C20AD7900EA2869 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC9D55E11C20AD7900EA2869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC9D55E21C20AD7900EA2869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC9D55E41C20AD7900EA2869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Tipster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.topedaram.Tipster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC9D55E51C20AD7900EA2869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Tipster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.topedaram.Tipster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC9D55CC1C20AD7900EA2869 /* Build configuration list for PBXProject "Tipster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC9D55E11C20AD7900EA2869 /* Debug */,
+				DC9D55E21C20AD7900EA2869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC9D55E31C20AD7900EA2869 /* Build configuration list for PBXNativeTarget "Tipster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC9D55E41C20AD7900EA2869 /* Debug */,
+				DC9D55E51C20AD7900EA2869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC9D55C91C20AD7900EA2869 /* Project object */;
+}
