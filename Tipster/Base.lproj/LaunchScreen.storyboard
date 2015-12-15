@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8150" systemVersion="15A204g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8122"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -13,15 +13,55 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Tope Daramola . 2015 " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="9" preferredMaxLayoutWidth="441" translatesAutoresizingMaskIntoConstraints="NO" id="PXJ-mA-8uW">
+                                <rect key="frame" x="18" y="616" width="339" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="FCg-hG-wzr"/>
+                                    <constraint firstAttribute="width" constant="339" id="oAY-nI-iWH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tipster" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t4S-Ex-f4U">
+                                <rect key="frame" x="104" y="139" width="167" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="167" id="diz-fb-Lub"/>
+                                    <constraint firstAttribute="height" constant="51" id="n1N-ed-1PR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="43"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="codePath" translatesAutoresizingMaskIntoConstraints="NO" id="Sge-DJ-K2Y">
+                                <rect key="frame" x="67" y="580" width="241" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="241" id="k90-8g-FEI"/>
+                                    <constraint firstAttribute="height" constant="28" id="yeE-RY-VZp"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.28235294117647058" green="0.21176470588235294" blue="0.30980392156862746" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="PXJ-mA-8uW" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="DdD-ca-huJ"/>
+                            <constraint firstItem="t4S-Ex-f4U" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="RYi-a8-Bvi"/>
+                            <constraint firstItem="Sge-DJ-K2Y" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ckH-fx-nJL"/>
+                            <constraint firstItem="PXJ-mA-8uW" firstAttribute="top" secondItem="Sge-DJ-K2Y" secondAttribute="bottom" constant="8" id="fUX-tg-XAd"/>
+                            <constraint firstItem="t4S-Ex-f4U" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="119" id="gCP-NP-k8L"/>
+                            <constraint firstItem="Sge-DJ-K2Y" firstAttribute="top" secondItem="t4S-Ex-f4U" secondAttribute="bottom" constant="390" id="ucy-QN-YFa"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="442.5" y="396.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="codePath" width="450" height="53"/>
+    </resources>
 </document>
