@@ -133,7 +133,7 @@ class ViewController: UIViewController, UITextFieldDelegate, SettingsViewControl
      */
     func customizeView() {
         
-        let colorTop = UIColor(red: 46.0/255.0, green: 20.0/255.0, blue: 55.0/255.0, alpha: 1.0).CGColor
+        let colorTop = UIColor(red: 43.0/255.0, green: 210.0/255.0, blue: 255.0/255.0, alpha: 1.0).CGColor
         //let colorBottom = UIColor(red: 215.0/255.0, green: 210.0/255.0, blue: 204.0/255.0, alpha: 1.0).CGColor
         let colorBottom = UIColor(red: 148.0/255.0, green: 142.0/255.0, blue: 153.0/255.0, alpha: 1.0).CGColor
         
